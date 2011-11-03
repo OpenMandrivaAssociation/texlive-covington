@@ -1,3 +1,9 @@
+# revision 17750
+# category Package
+# catalog-ctan /macros/latex/contrib/covington
+# catalog-date 2010-04-05 22:57:39 +0200
+# catalog-license pd
+# catalog-version undef
 Name:		texlive-covington
 Version:	20100405
 Release:	1
@@ -42,6 +48,7 @@ example numbering.
 %doc %{_texmfdistdir}/doc/latex/covington/covington.tex
 %doc %{_texmfdistdir}/doc/latex/covington/covingtonGerm.pdf
 %doc %{_texmfdistdir}/doc/latex/covington/covingtonGerm.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ example numbering.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
