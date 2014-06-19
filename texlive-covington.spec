@@ -1,12 +1,12 @@
-# revision 17750
+# revision 34064
 # category Package
 # catalog-ctan /macros/latex/contrib/covington
-# catalog-date 2010-04-05 22:57:39 +0200
+# catalog-date 2014-05-16 17:18:37 +0200
 # catalog-license pd
 # catalog-version undef
 Name:		texlive-covington
-Version:	20100405
-Release:	7
+Version:	20140516
+Release:	1
 Summary:	Linguistic support
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/covington
@@ -49,17 +49,3 @@ example numbering.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20100405-2
-+ Revision: 750603
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20100405-1
-+ Revision: 718161
-- texlive-covington
-- texlive-covington
-- texlive-covington
-- texlive-covington
-
