@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-covington
 Version:	20140516
-Release:	1
+Release:	2
 Summary:	Linguistic support
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/covington
