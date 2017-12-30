@@ -1,12 +1,6 @@
-# revision 34064
-# category Package
-# catalog-ctan /macros/latex/contrib/covington
-# catalog-date 2014-05-16 17:18:37 +0200
-# catalog-license pd
-# catalog-version undef
 Name:		texlive-covington
-Version:	20140516
-Release:	4
+Version:	1.4
+Release:	1
 Summary:	Linguistic support
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/covington
@@ -34,11 +28,8 @@ example numbering.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/covington/covington.sty
-%doc %{_texmfdistdir}/doc/latex/covington/covington.pdf
-%doc %{_texmfdistdir}/doc/latex/covington/covington.tex
-%doc %{_texmfdistdir}/doc/latex/covington/covingtonGerm.pdf
-%doc %{_texmfdistdir}/doc/latex/covington/covingtonGerm.tex
+%{_texmfdistdir}/tex/latex/covington
+%doc %{_texmfdistdir}/doc/latex/covington
 
 #-----------------------------------------------------------------------
 %prep
