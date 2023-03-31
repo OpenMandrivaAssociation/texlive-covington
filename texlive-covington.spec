@@ -1,6 +1,6 @@
 Name:		texlive-covington
 Version:	64241
-Release:	1
+Release:	2
 Summary:	Linguistic support
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/covington
