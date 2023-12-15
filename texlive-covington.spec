@@ -1,5 +1,5 @@
 Name:		texlive-covington
-Version:	67472
+Version:	69091
 Release:	1
 Summary:	Linguistic support
 Group:		Publishing
