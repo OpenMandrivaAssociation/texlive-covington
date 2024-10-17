@@ -3,7 +3,7 @@ Version:	69091
 Release:	1
 Summary:	Linguistic support
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/covington
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/covington
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/covington.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/covington.doc.r%{version}.tar.xz
